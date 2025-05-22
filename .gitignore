@@ -1,0 +1,22 @@
+# Ignore system files and Python cache
+.DS_Store
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Use Git LFS for large files (audio, models, etc.)
+# Do NOT ignore the dataset, but track large files with LFS
+
+# Ignore the LJSpeech-1.1 dataset folder
+# LJSpeech-1.1/
+# LJSpeech-1.1/wavs/
+# LJSpeech-1.1/metadata.csv
+
+# Ignore the Jupyter notebook file
+# speech-recognition.ipynb
+
+# Ignore pickle, csv, zip, and log files
+# *.pkl
+# *.csv
+# *.zip
+# *.log
